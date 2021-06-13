@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html,
+        body {
+            margin: 0;
+            height: 100%;
+        }
+
+
+
+        @keyframes anim_calc {
+
+            from {
+                bottom: 5px;
+                right: 45%;
+                transform: rotate(-0deg);
+            }
+
+            to {
+                bottom: 250px;
+                right: 78%;
+                transform: rotate(-25deg);
+            }
+
+
+        }
+
+        @keyframes anim_book {
+
+            from {
+                bottom: 5px;
+                right: 45%;
+                transform: rotate(-0deg);
+            }
+
+            to {
+                bottom: 300px;
+                right: 60%;
+                transform: rotate(-8deg);
+            }
+
+
+        }
+
+        @keyframes anim_paper {
+
+            from {
+                bottom: 5px;
+                right: 45%;
+                transform: rotate(-0deg);
+            }
+
+            to {
+                bottom: 305px;
+                right: 42%;
+                transform: rotate(5deg);
+            }
+
+
+        }
+
+        @keyframes anim_pallet {
+
+            from {
+                bottom: 5px;
+                right: 45%;
+                transform: rotate(-0deg);
+            }
+
+            to {
+                bottom: 280px;
+                right: 25%;
+                transform: rotate(25deg);
+            }
+
+
+        }
+
+        @keyframes anim_pencil {
+
+            from {
+                bottom: fixed;
+                right: 45%;
+                transform: rotate(-0deg);
+            }
+
+            to {
+                bottom: fixed;
+                right: 50%;
+                transform: rotate(90deg);
+            }
+
+
+        }
+
+        .calc {
+            position: fixed;
+            width: 180px;
+            bottom: 0;
+            right: 40%;
+            animation: anim_calc;
+            animation-fill-mode: forwards;
+            animation-duration: 4s;
+
+        }
+
+        .book {
+            position: fixed;
+            width: 180px;
+            bottom: 0;
+            right: 40%;
+            animation: anim_book;
+            animation-fill-mode: forwards;
+            animation-duration: 4s;
+        }
+
+        .paper {
+            position: fixed;
+            width: 180px;
+            bottom: 0;
+            right: 40%;
+            animation: anim_paper;
+            animation-fill-mode: forwards;
+            animation-duration: 4s;
+        }
+
+        .pallet {
+            position: fixed;
+            width: 180px;
+            bottom: 0;
+            right: 40%;
+            animation: anim_pallet;
+            animation-fill-mode: forwards;
+            animation-duration: 4s;
+        }
+
+        .pencil {
+            position: fixed;
+            width: 180px;
+            bottom: 0;
+            right: 40%;
+            animation: anim_pencil;
+            animation-fill-mode: forwards;
+            animation-duration: 4s;
+        }
+    </style>
+
+</head>
+
+<body style="background-color: chocolate;">
+    <h1 style="font-family: Arial, Helvetica, sans-serif; text-align: center; ">HELLO,MY SYTE!</h1>
+    <img class="calc" src="images/calc.png">
+    <img class="book" src="images/book.png">
+    <img class="paper" src="images/paper.png">
+    <img class="pallet" src="images/pallete.png">
+    <img class="pencil" src="images/pencil.png">
+</body>
+
+</html>
